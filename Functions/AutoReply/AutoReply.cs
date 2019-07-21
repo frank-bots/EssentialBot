@@ -16,7 +16,7 @@ namespace CyanBot.Functions {
                     return new Message (new ElementText ("我已经被安排过这句话了！"));
             }
             DBAgent.Insert (p[1], p[2], p[0]);
-            return new Message (new ElementText ("谢谢你，我学会了，你呢?"));
+            return new Message (new ElementText ("谢谢你，我学会了，你呢? 恩恩?搞小心心"));
         }
         public static Message Reply (string p) {
             if (DBAgent.isExist (p))
