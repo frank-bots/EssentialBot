@@ -8,7 +8,7 @@ using cqhttp.Cyan.Events.CQResponses;
 using cqhttp.Cyan.Instance;
 using Newtonsoft.Json.Linq;
 
-namespace CyanBot {
+namespace EssentialBot {
     static class Config {
         public static string api_addr, access_token, listen_secret;
         public static int listen_port;

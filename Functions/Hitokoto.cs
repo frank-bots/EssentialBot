@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using cqhttp.Cyan.Messages;
 using Newtonsoft.Json.Linq;
 
-namespace CyanBot.Functions {
+namespace EssentialBot.Functions {
     public class Hitokoto {
         static List<string> types = new List<string> {
             "Anime",

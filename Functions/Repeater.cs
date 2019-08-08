@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using cqhttp.Cyan.Enums;
 using cqhttp.Cyan.Messages;
 
-namespace CyanBot.Functions {
+namespace EssentialBot.Functions {
     public class Repeater {
         static Dictionary < (MessageType, long), Message > last =
             new Dictionary < (MessageType, long), Message > ();

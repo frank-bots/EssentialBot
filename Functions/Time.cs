@@ -6,9 +6,8 @@ using cqhttp.Cyan.Enums;
 using cqhttp.Cyan.Instance;
 using cqhttp.Cyan.Messages;
 using cqhttp.Cyan.Messages.CQElements;
-using CyanBot;
 
-namespace CyanBot.Functions {
+namespace EssentialBot.Functions {
     public class Time {
         static string[] pics = {
             "https://i.loli.net/2019/04/20/5cba0323b4cdb.png", //12

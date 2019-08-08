@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using cqhttp.Cyan.Messages;
 using cqhttp.Cyan.Messages.CQElements;
 
-namespace CyanBot.Functions {
+namespace EssentialBot.Functions {
     public class AutoReply {
         public static Message Teach (List<string> p, long sender, bool force = false) {
             if (p.Count != 2) {

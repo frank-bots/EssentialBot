@@ -4,7 +4,7 @@ using cqhttp.Cyan.Enums;
 using cqhttp.Cyan.Events.CQEvents.Base;
 using cqhttp.Cyan.Instance;
 
-namespace CyanBot.Dispatcher {
+namespace EssentialBot.Dispatcher {
     public struct Command {
         public string operation;
         /// <summary>

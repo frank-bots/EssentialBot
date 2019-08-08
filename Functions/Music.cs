@@ -1,7 +1,7 @@
 using cqhttp.Cyan.Messages;
 using cqhttp.Cyan.Messages.CQElements;
 
-namespace CyanBot.Functions {
+namespace EssentialBot.Functions {
     public class Music {
         public static void LoadModule () {
             FunctionPool.onCommand.Add ("listen", (p) => new Message (new ElementMusic (

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using cqhttp.Cyan.Messages;
 
-namespace CyanBot.Functions {
+namespace EssentialBot.Functions {
     class Internal {
         public static Dictionary<string, bool> isModuleLoaded =
             new Dictionary<string, bool> ();
